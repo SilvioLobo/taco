@@ -27,9 +27,10 @@
 		})(window, document, console);
 		</script>
 		<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script-->
-		https://silviolobo.github.io/taco/
-		<script src="https://raw.github.com/DeuxHuitHuit/quicksearch/master/src/jquery.quicksearch.js"></script>
+		
+			
 		<script>
+			$.getScript("https://raw.github.com/DeuxHuitHuit/quicksearch/master/src/jquery.quicksearch.js");
 			$(document).ready(function () {
 				$("#id_search").quicksearch("table tbody tr", {
 					noResults: '#noresults',
